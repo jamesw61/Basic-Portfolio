@@ -20,31 +20,37 @@
 		</ul>
 	</div>
 
-	<div id="content">
-		<div id="contactme">
-			<h1>Contact</h1>
+	
+		<div id="maincontact" class="main">
+			<h1 class="maintitle">Contact</h1>
 			<form action="/action_page.php">
   				Name:<br>
-  				<input type="text" name="firstname" value="John Smith">
+  				<input type="text" name="firstname" value="John Smith" class="formlabel">
   				<br>
   				Email:<br>
- 				 <input type="text" name="email" value="example@gmail.com">
+ 				 <input type="text" name="email" value="example@gmail.com" class="formlabel">
   				<br>
   				Message:<br>
-  				<input type="text" name="message">
+  				<input type="text" name="message" class="formlabel" id="message">
   				<br><br>
-  				<input type="submit" value="Submit">
+  				<input type="submit" value="Submit" id="submit">
 			</form> 
 		</div>
+	
 
-		<div id="connect">
-			<h2>Connect with Me</h2>
-			<img src="" alt="git"
-			<img src="" alt="linkd">
-			<img src="" alt="stack">
+		<div id="sidebar">
+			<h2 id="connect">Connect with Me</h2>
+			<a href="https://github.com/jamesw61">
+				<img src="assets/images/git.png" alt="git" height= 64 width =64>
+			</a>
+			<a href="https://www.linkedin.com/in/james-wick-0b6993138/">
+				<img src="assets/images/linkd.png" alt="linkd" height= 64 width =64>
+			</a>
+			<a href="http://stackexchange.com/users/10594284/jamesw61">
+				<img src="assets/images/stck.png" alt="stack" height= 64 width =64>
+			</a>
 		</div>
-	</div>
-
+	
 	<div id="footer">
 		<p id="copyright">
 		Copyright 2017 James Wick

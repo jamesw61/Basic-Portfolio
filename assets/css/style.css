@@ -56,7 +56,7 @@ ul#links li {
 
 }
 
-#main {
+.main {
 	color: #4aaaa5;
 	width: 650px;
 	height: 350px;
@@ -76,8 +76,10 @@ ul#links li {
 	border-bottom: solid;
 	border-color: #b8bdc4;
 	margin-bottom: 20px;
-
 }
+
+
+
 p {
 	color: #9198a3;
 	margin-left: 20px;
@@ -158,6 +160,35 @@ h1, h2 {
 	padding: 10px;
 	position: relative;
 	bottom: 50px;
+}
+
+#maincontact {
+	height: 530px;
+}
+
+form {
+	margin-left: 20px;
+	color: #666666;
+	font-size: 20px;
+}
+
+.formlabel {
+	color: #777777;
+	font-size: 20px;
+	width: 600px;
+	height: 40px;
+}
+
+#message {
+	height: 200px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+	width: 150px;
 }
 
 /*#box1 {
