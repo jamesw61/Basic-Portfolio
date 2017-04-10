@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 	margin-top: 0;
 	margin-left: 0;
+	/*position: relative;*/
+	/*min-height: 100%;*/
 }
 
 body {
@@ -9,6 +11,7 @@ body {
 	background-image: url("knitting250px.png");
 	width: 1160px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/*margin: 0 0 90px;*/
 	}
 
 a:link {
@@ -113,13 +116,17 @@ h1, h2 {
 
 #footer {
 	clear: both;
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*bottom: 0;*/
 	height: 90px;
+	width: 100%;
 	border-top: solid;
 	border-color: #4aaaa5;
 	background-color: #4d4f54;
-	
 	border-width: 5px;
 	margin-top: 50px;
+
 
 }
 
