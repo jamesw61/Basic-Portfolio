@@ -4,9 +4,7 @@
 }
 
 body {	
-	/*background-image: url("../images/knitting250px.png");*/
-	/*can't get it to work*/
-	background-image: url("knitting250px.png");
+	background-image: url("../images/knitting250px.png");
 	width: 1160px;
 	color: #ddd6cf;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
