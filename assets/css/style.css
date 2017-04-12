@@ -226,5 +226,6 @@ form {
 
 span.gif2:hover #gif{
 	display: block;
+	top: 100px;
 }
 
