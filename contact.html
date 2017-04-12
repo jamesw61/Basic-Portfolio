@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title>James Wick</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<div id="header">
+	<header>
 		<h1 id="myname">James Wick</h1>
 		<ul>
 			<li>
@@ -14,47 +15,42 @@
 			<li>
 				<a href="portfolioi.html">Portfolio</a>
 			</li>
-			<li>
+			<li id="noborder">
 				<a href="contact.html">Contact</a>
 			</li>
 		</ul>
-	</div>
-
-	
-		<div id="maincontact" class="main">
-			<h1 id="maintitlecontact">Contact</h1>
+	</header>	
+		<section id="contact">
+			<h2 class="sectiontitle">Contact</h2>
 			<form action="/action_page.php">
   				Name:<br>
-  				<input type="text" name="firstname" value="John Smith" class="formlabel">
+  				<input type="text" name="firstname" value="John Smith" class="forminput">
   				<br>
   				Email:<br>
- 				 <input type="text" name="email" value="example@gmail.com" class="formlabel">
+ 				 <input type="text" name="email" value="example@gmail.com" class="forminput">
   				<br>
   				Message:<br>
-  				<input type="text" name="message" class="formlabel" id="message">
+  				<input type="text" name="message" class="forminput" id="message">
   				<br><br>
   				<input type="submit" value="Submit" id="submit">
 			</form> 
-		</div>
-	
-
-		<div id="sidebar">
+		</section>
+		<aside>
 			<h2 id="connect">Connect with Me</h2>
-			<a href="https://github.com/jamesw61">
+			<a href="https://github.com/jamesw61" class="socialbox">
 				<img src="assets/images/git.png" alt="git" height= 64 width =64>
 			</a>
-			<a href="https://www.linkedin.com/in/james-wick-0b6993138/">
+			<a href="https://www.linkedin.com/in/james-wick-0b6993138/" class="socialbox">
 				<img src="assets/images/linkd.png" alt="linkd" height= 64 width =64>
 			</a>
 			<a href="http://stackexchange.com/users/10594284/jamesw61">
 				<img src="assets/images/stck.png" alt="stack" height= 64 width =64>
 			</a>
-		</div>
-	
-	<div id="footer">
+		</aside>	
+	<footer>
 		<p id="copyright">
 		Copyright 2017 James Wick
 		</p>
-	</div>
+	</footer>
 </body>
 </html>
