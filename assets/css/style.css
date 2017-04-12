@@ -62,7 +62,7 @@ ul {
 section {
 	color: #666666;
 	width: 650px;
-	height: 360px;
+	height: 330px;
 	float: left;
 	margin-left: 100px;
 	background-color: white;
@@ -131,6 +131,7 @@ footer {
 	background-color: #4d4f54;
 	border-width: 5px;
 	margin-top: 50px;
+	z-index: -1;
 }
 
 #copyright {
@@ -206,3 +207,16 @@ form {
 	width: 150px;
 	bottom: 10px;
 }
+
+#gif {
+	display: none;
+}
+
+.gif2 {
+	color: purple;	
+}
+
+span.gif2:hover #gif{
+	display: block;
+}
+
